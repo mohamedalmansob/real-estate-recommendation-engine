@@ -37,9 +37,12 @@ Thumbs.db
 data/raw/*
 !data/raw/.gitkeep
 
-# Optional
+# Ignore processed datasets by default
 data/processed/*.csv
 data/processed/*.parquet
+
+# Keep cleaned dataset for team
+!data/processed/properties_clean_v2.csv
 
 # ===========================
 # Models
